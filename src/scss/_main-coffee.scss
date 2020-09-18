@@ -19,7 +19,8 @@ main {
     width: 100%;
     margin: $margin auto;
 
-    @media (min-width: $mobile-breakpoint) {
+    // it looked like shit on tablet so I made this breakpoint from medium devices
+    @media (min-width: 768px) {
       flex-basis: 48%;
     }
 

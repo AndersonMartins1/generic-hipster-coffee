@@ -11,13 +11,11 @@ header {
   padding: $padding;
 
   svg {
-    width: 100px;
+    width: 10em;
   }
 
   @media (min-width: $mobile-breakpoint) {
     flex-direction: row;
     justify-content: space-evenly;
-
- 
   }
 }
