@@ -7,9 +7,16 @@
     width: 100%;
   }
 
+  h2 {
+    margin-top: $margin;
+    margin-bottom: $margin;
+  }
+
   @media (min-width: $mobile-breakpoint) {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .about {
       display: flex;
@@ -23,6 +30,10 @@
 
     .twofounders {
       display: flex;
+    }
+
+    form {
+      width: 80%;
     }
   }
 }
