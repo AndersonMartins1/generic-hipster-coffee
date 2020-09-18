@@ -18,6 +18,10 @@ footer {
 
   a {
     color: #0393f2;
+
+    &:hover {
+      color: white;
+    }
   }
 
   .nav {
@@ -25,6 +29,9 @@ footer {
       color: $link-color;
       text-decoration: underline;
 
+      &:hover {
+        color:white;
+      }
       &--active {
         color: $footer-text;
         text-decoration: none;
