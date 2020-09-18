@@ -1,0 +1,10 @@
+.ourstory {
+  img {
+    border-radius: 100px;
+    width: 100%;
+  }
+
+  @media (min-width: $mobile-breakpoint) {
+    display: flex;
+  }
+}
