@@ -36,6 +36,8 @@ h4 {
 
 .bottom-image img {
   width: 100%;
+  position: relative;
+  top: 2em;
 }
 
 .nav {
@@ -60,6 +62,7 @@ h4 {
 main {
   padding: $padding * 2;
   padding-top: $padding;
+  padding-bottom: 0;
   margin: auto;
 
   @media (min-width: $mobile-breakpoint) {
