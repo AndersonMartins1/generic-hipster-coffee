@@ -10,16 +10,14 @@ header {
   align-items: center;
   padding: $padding;
 
-  img {
-    width: 30%;
+  svg {
+    width: 100px;
   }
 
   @media (min-width: $mobile-breakpoint) {
     flex-direction: row;
     justify-content: space-evenly;
 
-    img {
-      width: auto;
-    }
+ 
   }
 }
