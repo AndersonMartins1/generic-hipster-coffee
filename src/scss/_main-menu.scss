@@ -1,4 +1,18 @@
 
+.menu_raw {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width:$mobile-breakpoint){
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 3em;
+        .menu-col {
+            flex-basis: 50%;
+            margin-right: 6em;
+        }
+    }
+}
 .menu-list {
     display: flex;
     justify-content: space-between;
