@@ -1,0 +1,46 @@
+main {
+  .subheading {
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: $margin;
+  }
+
+  .figures {
+    @media (min-width: $mobile-breakpoint) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: stretch;
+    }
+  }
+
+  figure {
+    background-color: #f8f9fa;
+    width: 100%;
+    margin: $margin auto;
+
+    @media (min-width: $mobile-breakpoint) {
+      flex-basis: 48%;
+    }
+
+    h3 {
+      padding: $padding;
+      background-color: #f0f1f2;
+      margin: 0;
+    }
+
+    hr {
+      margin: 0;
+      opacity: 0.5;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    p {
+      padding: $padding;
+      margin: 0;
+    }
+  }
+}

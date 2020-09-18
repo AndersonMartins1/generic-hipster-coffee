@@ -16,7 +16,6 @@ h4 {
   font-weight: 300;
 }
 
-
 h1 {
   font-size: 40px;
 }
@@ -33,7 +32,7 @@ h4 {
   font-size: 24px;
 }
 
-.bottom-image img{
+.bottom-image img {
   width: 100%;
 }
 
@@ -53,5 +52,19 @@ h4 {
     &--active {
       color: black;
     }
+  }
+}
+
+main {
+  padding: $padding;
+  margin: auto;
+
+  @media (min-width: $mobile-breakpoint) {
+    max-width: 80%;
+    padding: 2 * $padding;
+  }
+
+  a {
+    color: $link-color;
   }
 }

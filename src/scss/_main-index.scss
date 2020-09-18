@@ -1,16 +1,15 @@
-
-.coffee-pic img{
-    width: 100vw;
+.coffee-pic img {
+  width: 100%;
 }
 
 .coffee-info {
-    display: flex;
-    flex-direction: column;
-        @media (min-width:600px) {
-            flex-direction: row;
-            justify-content: space-between;
-        }
-    p {
-        margin: 0;
-    }
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 600px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  p {
+    margin: 0;
+  }
 }
