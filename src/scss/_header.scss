@@ -14,7 +14,7 @@ header {
     width: 30%;
   }
 
-  @media (min-width: 500px) {
+  @media (min-width: $mobile-breakpoint) {
     flex-direction: row;
     justify-content: space-evenly;
 
