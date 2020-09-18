@@ -16,7 +16,6 @@ h4 {
   font-weight: 300;
 }
 
-
 h1 {
   font-size: 40px;
 }
@@ -53,5 +52,13 @@ h4 {
     &--active {
       color: black;
     }
+  }
+}
+
+main {
+  padding: $padding;
+
+  @media (min-width: $mobile-breakpoint) {
+    width: 80%;
   }
 }
