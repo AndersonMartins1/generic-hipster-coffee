@@ -5,6 +5,7 @@
   img {
     border-radius: 100px;
     width: 100%;
+    margin-bottom: $margin;
   }
 
   h2 {
@@ -30,6 +31,10 @@
 
     .twofounders {
       display: flex;
+
+      img {
+        border-radius: 50%;
+      }
     }
 
     form {
