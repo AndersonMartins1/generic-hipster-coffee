@@ -1,41 +1,8 @@
-@import 'variables';
-@import 'header';
-@import 'footer';
-@import 'main-about';
-@import 'main-coffee';
-@import 'main-menu';
-@import 'main-index';
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-weight: 300;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-h1, h2, h3, h4 {
-    text-transform: uppercase;
-}
-
-h1 {
-    font-size: 40px;
-}
-
-h2 {
-    font-size: 32px;
-}
-
-h3 {
-    font-size: 28px; 
-}
-
-h4 {
-    font-size: 24px;
-}
-
-.bottom-image {
-    width: 100%;
-}
+@import "variables";
+@import "common-elements";
+@import "header";
+@import "footer";
+@import "main-about";
+@import "main-coffee";
+@import "main-menu";
+@import "main-index";

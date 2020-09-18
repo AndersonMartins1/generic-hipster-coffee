@@ -1,0 +1,21 @@
+// $header-bg: #f8f9fa;
+// $footer-bg: #343a40;
+// $link-color: #0393f2;
+// $footer-text: #c4cad0;
+// $padding: 1em;
+// $margin: 1em;
+
+footer {
+  background-color: $footer-bg;
+}
+
+.nav {
+  &__a {
+    color: $link-color;
+    text-decoration: underline;
+
+    &--active {
+      color: $footer-text;
+    }
+  }
+}
