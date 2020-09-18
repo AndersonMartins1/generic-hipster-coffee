@@ -7,15 +7,34 @@
 
 footer {
   background-color: $footer-bg;
-}
+  padding: $padding;
+  display: flex;
+  flex-direction: column;
+  color: $footer-text;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  min-height: 15em;
 
-.nav {
-  &__a {
-    color: $link-color;
-    text-decoration: underline;
+  a {
+    color: #0393f2;
+  }
 
-    &--active {
-      color: $footer-text;
+  .nav {
+    &__a {
+      color: $link-color;
+      text-decoration: underline;
+
+      &--active {
+        color: $footer-text;
+        text-decoration: none;
+      }
     }
+  }
+
+  .hipsterhashtag {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
   }
 }
