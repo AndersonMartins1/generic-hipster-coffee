@@ -12,6 +12,7 @@ header {
 
   svg {
     width: 10em;
+    margin-bottom: $margin;
   }
 
   @media (min-width: $mobile-breakpoint) {
