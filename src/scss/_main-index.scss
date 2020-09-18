@@ -13,3 +13,19 @@
     margin: 0;
   }
 }
+
+.smalldisplay {
+  display: block;
+
+  @media (min-width: $mobile-breakpoint) {
+    display: none;
+  }
+}
+
+.bigdisplay {
+  display: none;
+
+  @media (min-width: $mobile-breakpoint) {
+    display: block;
+  }
+}
