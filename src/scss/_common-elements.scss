@@ -53,6 +53,9 @@ h4 {
     color: $footer-text;
     text-decoration: none;
 
+    &:hover {
+      color: black;
+    }
     &--active {
       color: black;
     }
