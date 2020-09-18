@@ -13,12 +13,16 @@
 
     .about {
       display: flex;
-      justify-content: space-between;
+      align-items: center;
     }
 
     img {
       width: 300px;
       margin-right: $margin * 2;
+    }
+
+    .twofounders {
+      display: flex;
     }
   }
 }
