@@ -1,11 +1,16 @@
 .ourstory {
+  // button too close to footer
   margin-bottom: $margin;
   text-align: justify;
 
   img {
     border-radius: 50%;
-    width: 100%;
     margin-bottom: $margin * 2;
+    width: 100%;
+
+    @media (min-width: $mobile-breakpoint) {
+      margin: 0;
+    }
   }
 
   h2 {
@@ -27,14 +32,6 @@
     img {
       width: 300px;
       margin-right: $margin * 2;
-    }
-
-    .twofounders {
-      display: flex;
-
-      img {
-        border-radius: 50%;
-      }
     }
 
     form {
@@ -91,6 +88,7 @@
     .image:hover {
       .coverdown {
         visibility: visible;
+        cursor: none;
       }
     }
   }
